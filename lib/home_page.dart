@@ -43,7 +43,8 @@ Widget verticalContent() {
 
 //***************** NO Need to touch anything under this comment ***************************//////
 
-//*************** THE way that I am creating the Widget like Widget customCard, is equivalent to creating a class CustomCard that extends Stateless Widget, this is equivalent because Widget automatically extends StatelessWidget  */
+//*************** THE way that I am creating the Widget like Widget customCard, is equivalent to creating a class CustomCard that extends Stateless Widget, the main difference comes to reusability. In this case on the example Widget is a good approach for a Widget I dont plan on reusing anywhere else. If There is a Widget I might end up ussing in different Widgets then the class approach if prefered
+//  */
 
 Widget customCard(String title, String secondaryText, String thirdText) {
   return Card(
